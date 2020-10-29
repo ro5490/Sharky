@@ -260,7 +260,7 @@ class Verify(commands.Cog):
 
     # Agreeing command
 
-    @commands.command(name="agree", aliases=["verify"])
+    @commands.command(name="agree", aliases=["discordverify"])
     @commands.bot_has_permissions(manage_roles=True, manage_messages=True)
     async def verify_agree(self, ctx: commands.Context):
         """
